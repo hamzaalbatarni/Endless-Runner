@@ -16,10 +16,10 @@ public class playercontroller : MonoBehaviour {
     void FixedUpdate()
     {
 
-        if (true)
-        {
+       
+        
             rb.AddForce(0, 0, forwardForce * Time.deltaTime);
-        }
+        
 
         float moveHorizontal = Input.GetAxis("Horizontal");
        //float moveVertical = Input.GetAxis("Vertical");
